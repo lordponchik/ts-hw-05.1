@@ -4,8 +4,6 @@ import { Users } from '../../users';
 console.log('task-01');
 console.log('');
 
-// Получить массив имен всех пользователей (поле name).
-
 type GetUserNames = (users: Users) => string[];
 
 const getUserNames: GetUserNames = users => {

@@ -1,4 +1,4 @@
-type Users = {
+export type Users = {
   id: string;
   name: string;
   email: string;
@@ -11,7 +11,7 @@ type Users = {
   age: number;
 }[];
 
-export const user: Users = [
+export const users: Users = [
   {
     id: '701b29c3-b35d-4cf1-a5f6-8b12b29a5081',
     name: 'Moore Hensley',

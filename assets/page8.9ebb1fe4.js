@@ -1,0 +1,1 @@
+import{u as e}from"./users.0a23f0e8.js";console.log("task-08");console.log("");const s=(l,r)=>l.filter(({friends:o})=>o.includes(r)).map(({name:o})=>o);console.log(s(e,"Briana Decker"));console.log(s(e,"Goldie Gentry"));

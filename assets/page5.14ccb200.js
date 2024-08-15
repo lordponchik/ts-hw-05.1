@@ -1,0 +1,1 @@
+import{u as o}from"./users.0a23f0e8.js";console.log("task-05");console.log("");const e=(l,s)=>l.find(m=>m.email===s)||"Not found";console.log(e(o,"shereeanthony@kog.com"));console.log(e(o,"elmahead@omatom.com"));console.log(e(o,"wasd@omatom.com"));

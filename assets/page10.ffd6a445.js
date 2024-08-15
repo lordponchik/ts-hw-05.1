@@ -1,0 +1,1 @@
+import{u as r}from"./users.0a23f0e8.js";console.log("task-10");console.log("");const t=l=>l.flatMap(({skills:o})=>o).filter((o,e,s)=>s.indexOf(o)===e).sort((o,e)=>o.localeCompare(e));console.log(t(r));

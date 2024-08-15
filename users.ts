@@ -1,4 +1,5 @@
-export type Users = {
+export type Users = User[];
+export type User = {
   id: string;
   name: string;
   email: string;
@@ -9,7 +10,7 @@ export type Users = {
   skills: string[];
   gender: string;
   age: number;
-}[];
+};
 
 export const users: Users = [
   {
